@@ -1,0 +1,95 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #f0fff0;
+  color: #2d4a2d;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #b9e4c9;
+  text-align: center;
+  padding: 25px 10px;
+  border-bottom: 5px solid #77c293;
+}
+
+header h1 {
+  font-size: 44.8px;
+  margin: 0;
+  color: #2d4a2d;
+  text-shadow: 1px 1px 2px #a7d7a7;
+}
+
+nav a {
+    background-color: #2d4a2d;
+    padding: 5px 20px;
+    border-radius: 15px;
+    color: antiquewhite;
+    font-style: normal;
+    text-decoration: none;
+}
+
+.contents {
+  margin-top: 15px;
+  padding: 0 10%;
+  text-align: justify;
+}
+
+.herb-list {
+  background-color: #daf5dd;
+  border-left: 5px solid #77c293;
+  border-right: 5px solid #77c293;
+  padding: 20px;
+}
+
+.herb-list ul {
+  list-style-type: circle;
+  columns: 2;
+  column-gap: 50px;
+  padding-left: 40px;
+  font-size: 17.6px;
+}
+
+.herb-list a {
+  text-decoration: none;
+  color: #27693c;
+  font-weight: bold;
+}
+
+.herb-list a:hover {
+  color: #1a492a;
+  text-decoration: underline;
+}
+
+.herbs {
+  padding: 30px 20px;
+}
+
+.herb {
+  background-color: #e9fbe9;
+  border: 3px solid #b5e0b5;
+  border-radius: 10px;
+  padding: 20px;
+  margin-bottom: 25px;
+  box-shadow: 2px 2px 5px #b5dcb5;
+}
+
+.herb h2 {
+  color: #2c6131;
+  margin-bottom: 10px;
+}
+
+.herb img {
+  width: 100%;
+  max-width: 300px;
+  display: block;
+  margin: 10px auto;
+  border-radius: 10px;
+  border: 2px solid #a3d9a5;
+}
+
+footer {
+  background-color: #b9e4c9;
+  text-align: center;
+  padding: 15px;
+}
